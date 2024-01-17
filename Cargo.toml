@@ -1,0 +1,13 @@
+[package]
+name = "yohacrypt"
+description = "Bundle encrypter/decrypter for Yohane the Parhelion - NUMAZU in the MIRAGE."
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "4.4.17", features = ["derive"]}
+sha1 = "0.10.6"
+aes = "0.8.3"
+ecb = "0.1.2"
