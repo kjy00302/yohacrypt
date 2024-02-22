@@ -12,7 +12,7 @@ use std::path::PathBuf;
 
 type Aes128EcbEnc = ecb::Encryptor<aes::Aes128>;
 
-const CRYPT_KEY: &str = "Yohane the Parhelion - NUMAZU in the MIRAGE";
+const CRYPT_KEY: &str = "Yohane the Parhelion - NUMAZU in the MIRAGE -";
 const DEMO_KEY: &str = "Yohane the Parhelion - NUMAZU in the MIRAGE - Demo";
 
 #[derive(Parser)]
