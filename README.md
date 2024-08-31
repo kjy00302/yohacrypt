@@ -3,17 +3,16 @@
 Bundle encrypter/decrypter for Yohane the Parhelion - NUMAZU in the MIRAGE.
 
     Usage: yohacrypt [OPTIONS] <PATH>
-    
+
     Arguments:
       <PATH>
-    
+
     Options:
       -q, --quiet
       -d, --demo       Use demo key
       -k, --key <KEY>  Use custom key
       -h, --help       Print help
       -V, --version    Print version
-    
 
 # Usage examples
 
